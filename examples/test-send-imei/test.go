@@ -10,7 +10,7 @@ import (
 
 func main() {
     // Tu IMEI en formato hexadecimal
-    imeiHex := "000F333536333037303432343431303133"
+    imeiHex := "000F333530333137313739353832343130"
 
     // Convertir el IMEI hexadecimal a bytes
     imeiBytes, err := hex.DecodeString(imeiHex)
